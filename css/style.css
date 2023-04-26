@@ -1,0 +1,58 @@
+/*
+Destacar que styles.css es mas que nada para
+usar colores que no tiene por defecto bootstrap
+--> no asustarse por los !important
+*/
+.nav--background{
+    background-color: #343a40;;
+}
+nav div ul li a:hover{
+    color: rgba(179, 222, 160, 0.923) !important;
+}
+
+main div .oscurecerFoto{
+    height: 80vh;
+}
+main div .img--altura{
+    height: 80vh;
+    object-fit: cover;
+    background-color: #343a40 !important;
+    
+}
+main section div .altura--caja{
+    height: 60vh !important;
+    background-color: #343a40 !important;
+}
+.main__div--colorEnviar{
+    background-color:#96c93e;
+}
+
+.footer--colorBackgroung{
+
+    background-color: #1d4358;
+}
+footer nav a{
+    text-decoration: none;
+    color: white;
+}
+footer nav a{
+    transition: .1s all;
+    -webkit-transition: .1s all;
+    -moz-transition: .1s all;
+    -ms-transition: .1s all;
+    -o-transition: .1s all;
+}
+footer nav a:hover{
+    font-size: small;
+    color: #97c2da;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
