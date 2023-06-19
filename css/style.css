@@ -3,6 +3,8 @@ Destacar que styles.css es mas que nada para
 usar colores que no tiene por defecto bootstrap
 --> no asustarse por los !important
 */
+
+
 .nav--background{
     background-color: #343a40;;
 }
